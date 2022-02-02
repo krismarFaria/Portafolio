@@ -5,7 +5,7 @@ $("#alert1").click(function(){
   imageWidth: 220,
   imageHeight:200,
   title: 'Desarrollo Móvil',
-  text:'*Resposive                                              *Responsive',
+  text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui doloribus, odio, praesentium a ipsa laboriosam voluptas sunt.',
   width: 600,
   padding: '3em',
   color: '#00000',
@@ -18,5 +18,28 @@ $("#alert1").click(function(){
     
 //   `
   
+})
+})
+
+
+$("#alert2").click(function(){
+  Swal.fire({
+imageUrl: 'img/computer.gif',
+imageWidth: 220,
+imageHeight:200,
+title: 'Desarrollo Web',
+text:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui doloribus, odio, praesentium a ipsa laboriosam voluptas sunt.',
+width: 600,
+padding: '3em',
+color: '#00000',
+background: '#fff ',
+//  backdrop: `
+//     rgba(0,0,123,0.4)
+//     url("img/estrellas.gif")
+//     left top
+//     no-repeat
+  
+//   `
+
 })
 })
